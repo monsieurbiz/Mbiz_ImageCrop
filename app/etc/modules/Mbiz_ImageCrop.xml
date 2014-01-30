@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * This file is part of Mbiz_ImageCrop for Magento.
+ *
+ * @license All rights reserved
+ * @author Jacques Bodin-Hullin <@jacquesbh> <j.bodinhullin@monsieurbiz.com>
+ * @category Mbiz
+ * @package Mbiz_ImageCrop
+ * @copyright Copyright (c) 2014 Monsieur Biz (http://monsieurbiz.com/)
+ */
+-->
+<config>
+    <modules>
+        <Mbiz_ImageCrop>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mbiz_ImageCrop>
+    </modules>
+</config>
