@@ -1,3 +1,4 @@
-app/code/community/Mbiz/ImageCrop/etc/config.xml        app/code/community/Mbiz/ImageCrop/etc/config.xml
-app/code/community/Mbiz/ImageCrop/Helper/Data.php       app/code/community/Mbiz/ImageCrop/Helper/Data.php
-app/etc/modules/Mbiz_ImageCrop.xml                      app/etc/modules/Mbiz_ImageCrop.xml
+app/code/community/Mbiz/ImageCrop/etc/config.xml            app/code/community/Mbiz/ImageCrop/etc/config.xml
+app/code/community/Mbiz/ImageCrop/Helper/Data.php           app/code/community/Mbiz/ImageCrop/Helper/Data.php
+app/code/community/Mbiz/ImageCrop/Model/Observer.php        app/code/community/Mbiz/ImageCrop/Model/Observer.php
+app/etc/modules/Mbiz_ImageCrop.xml                          app/etc/modules/Mbiz_ImageCrop.xml

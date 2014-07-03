@@ -22,5 +22,22 @@
                 <class>Mbiz_ImageCrop_Helper</class>
             </mbiz_imagecrop>
         </helpers>
+        <models>
+            <mbiz_imagecrop>
+                <class>Mbiz_ImageCrop_Model</class>
+            </mbiz_imagecrop>
+        </models>
     </global>
+    <adminhtml>
+        <events>
+            <clean_catalog_images_cache_after>
+                <observers>
+                    <mbiz_imagecrop>
+                        <class>mbiz_imagecrop/observer</class>
+                        <method>cleanImageCache</method>
+                    </mbiz_imagecrop>
+                </observers>
+            </clean_catalog_images_cache_after>
+        </events>
+    </adminhtml>
 </config>
