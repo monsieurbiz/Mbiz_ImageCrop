@@ -51,12 +51,12 @@ class Mbiz_ImageCrop_Helper_Data extends Mage_Core_Helper_Abstract
         }
 
         // Misc parameters
-        $parameters = [
+        $parameters = array(
             'constrainOnly',
             'keepAspectRatio',
             'keepFrame',
             'crop',
-        ];
+        );
 
         // Parameters hash
         $parametersHash = $this->_getParametersHash($parameters);
@@ -144,12 +144,12 @@ class Mbiz_ImageCrop_Helper_Data extends Mage_Core_Helper_Abstract
         }
 
         // Misc parameters
-        $parameters = [
+        $parameters = array(
             'constrainOnly',
             'keepAspectRatio',
             'keepFrame',
             'resize',
-        ];
+        );
 
         // Parameters hash
         $parametersHash = $this->_getParametersHash($parameters);
@@ -304,8 +304,8 @@ class Mbiz_ImageCrop_Helper_Data extends Mage_Core_Helper_Abstract
     protected function _checkDestinationDir($dir)
     {
         if (!@is_dir($dir)) {
-            (new Varien_Io_File)
-                ->setAllowCreateFolders(true)
+            $io = new Varien_Io_File();
+            $io->setAllowCreateFolders(true)
                 ->createDestinationDir($dir)
             ;
         }
